@@ -1,0 +1,53 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   }
+   
+   .car-body {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+   }
+   
+   .wheel {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+   }
+   
+   .front-left {
+    top: 50px;
+    left: 25px;
+   }
+   
+   .front-right {
+    top: 50px;
+    right: 25px;
+   }
+   
+   .back-left {
+    bottom: 50px;
+    left: 25px;
+   }
+   
+   .back-right {
+    bottom: 50px;
+    right: 25px;
+   }
+   
+   .car-name {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+   }
